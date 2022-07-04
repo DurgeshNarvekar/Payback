@@ -1,0 +1,8 @@
+{
+    "deviceId":"c2bdf363",
+    "platformName":"android",
+    "AutomationName":"UiAutomator2",
+    "appPackage":"de.payback.client.android",
+    "appActivity":"de.payback.app.deeplinks.StarterActivity",
+    "appPath":"\\APP\\de.payback.client.android_2022-06-20.apk"
+}
