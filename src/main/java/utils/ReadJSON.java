@@ -13,11 +13,7 @@ public class ReadJSON {
 		JSONParser parser = new JSONParser();
 		try {
 			Object obj = parser.parse(new FileReader(CurrentDir + "\\src\\main\\resources\\Config.json"));
-
-			// A JSON object. Key value pairs are unordered. JSONObject supports
-			// java.util.Map interface.
 			JSONObject jsonObject = (JSONObject) obj;
-
 			Value = jsonObject.get(KeyName).toString();
 
 		} catch (Exception e) {
