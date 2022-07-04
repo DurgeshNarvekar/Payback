@@ -67,7 +67,7 @@ public class Definations {
 	@And("Payback Application is Launched")
 	public void validateAPPStatus() throws ClassNotFoundException {
 		ExtentTest node = test.createNode(new GherkinKeyword("And"), "Payback Application is Launched",
-				"Validate is Application is lainched or Not.");
+				"Validate is Application is launched or Not.");
 		node.log(Status.INFO, "Validation for Application is started.");
 		try {
 

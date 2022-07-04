@@ -10,9 +10,7 @@ import io.appium.java_client.android.AndroidDriver;
 import utils.Helper;
 
 public class HomePage {
-
-	boolean isPresent = false;
-	Logger log;
+	
 	private AndroidDriver driver;
 	private Helper H;
 

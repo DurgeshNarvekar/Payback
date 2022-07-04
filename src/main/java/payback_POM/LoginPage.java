@@ -1,6 +1,5 @@
 package payback_POM;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 
 import io.appium.java_client.android.AndroidDriver;
@@ -9,8 +8,6 @@ import utils.Helper;
 
 public class LoginPage {
 
-	boolean isPresent = false;
-	Logger log;
 	private AndroidDriver driver;
 	private Helper H;
 

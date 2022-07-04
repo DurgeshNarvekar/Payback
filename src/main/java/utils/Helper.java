@@ -26,13 +26,13 @@ public class Helper {
 		je = (JavascriptExecutor) driver;
 	}
 
-	public WebElement waitFor(WebElement elem) {
+	public WebElement waitFor(WebElement el) {
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).withTimeout(Duration.ofSeconds(30))
 				.pollingEvery(Duration.ofSeconds(5)).ignoring(NoSuchElementException.class);
 
 		WebElement a = (WebElement) wait.until(new Function<WebDriver, WebElement>() {
 			public WebElement apply(WebDriver driver) {
-				return elem;
+				return el;
 			}
 		});
 		return a;
